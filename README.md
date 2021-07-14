@@ -1,1 +1,3 @@
 # VoiceControlledRobot
+
+This project aims to build a voice controlled robot which can start/stop, move forward, backward, left, or right as per user's commands. The voice commands are given to an app designed by us using MIT app inventor. The app converts our speech to text. The first letter of the text is then transferred to the arduino robot via bluetooth. The arduino is programmed using arduino IDE in such a way that it controls the robot through the microcontroller as per the input received. The microcontroller controls the L293D IC. This IC is responsible for the movement of the DC motors attached to the robot and thereby this IC manages the movement of the robot.
